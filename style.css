@@ -87,21 +87,14 @@
     text-decoration: underline;
   }
 
-/* Common styles for all screen sizes */
 
-/* Responsive styles for smaller screens */
 @media (max-width: 576px) {
-  .change {
-    display: none;
-  }
-  
+ 
   body {
     max-width: 100%;
-    padding: 0 10px; /* Adjust padding for better readability */
+    padding: 0 10px;
     margin-bottom: 50px;
   }
-
-  
 
   img, svg {
     max-width: 100%;
@@ -116,16 +109,21 @@
     font-size: 28px;
   }
   
-  h2 {
-    text-align: center;
-    font-size: 22px;
-  }
-  
-  p {
-    font-size: 16px;
+ 
+  h2{
+    font-size: 32px;
     text-align: center;
   }
-  
+
+  p{
+    text-align: center;
+  }
+
+  .project-link{
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
 
 
